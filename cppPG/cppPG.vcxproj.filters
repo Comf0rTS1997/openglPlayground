@@ -16,6 +16,9 @@
     <Filter Include="Source Files\Shader">
       <UniqueIdentifier>{a0dd3c76-537b-4eaf-8b12-c7a095072627}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\util">
+      <UniqueIdentifier>{03984a57-7a79-40f3-aabc-caa14b90a2e3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
@@ -24,10 +27,16 @@
     <ClCompile Include="shader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="fileCtr.cpp">
+    <ClCompile Include="fnTest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="fnTest.cpp">
+    <ClCompile Include="render.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fileCtr.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="windowMgr.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -47,6 +56,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="fileCtr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="render.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="windowMgr.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

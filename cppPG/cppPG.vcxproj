@@ -153,12 +153,16 @@
   <ItemGroup>
     <ClCompile Include="fileCtr.cpp" />
     <ClCompile Include="fnTest.cpp" />
+    <ClCompile Include="render.cpp" />
     <ClCompile Include="shader.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="windowMgr.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="fileCtr.h" />
+    <ClInclude Include="render.h" />
     <ClInclude Include="shader.h" />
+    <ClInclude Include="windowMgr.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="fixfrag.shader" />

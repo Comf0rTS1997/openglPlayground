@@ -9,7 +9,6 @@ public:
 
 private:
 	const char* vertexLoc;
-	const char* fragLoc;
-	
+	const char* fragLoc;	
 };
 
